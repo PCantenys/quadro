@@ -1,0 +1,121 @@
+@font-face {
+  font-family: HelveticaNeueLTStd-Roman;
+  src: url("../fonts/custom/HelveticaNeueLTStd-Roman.otf");
+}
+
+@font-face {
+    font-family: HELVETICANEUELTSTD-LT;
+    src: url('HELVETICANEUELTSTD-LT.OTF');
+}
+
+@font-face {
+  font-family: HELVETICANEUELTSTD-BD;
+  src: url('HELVETICANEUELTSTD-BD.OTF');
+}
+
+body {
+  font-family: font-family: HELVETICANEUELTSTD-LT, sans-serif;
+  background-color: #ffffff;
+}
+
+#logo {
+  margin-top: 30px;
+  /* height: 3em; */
+}
+
+.img-main {
+  height: 100%;
+}
+
+#logo-costan {
+  position: relative;
+  top: -40px;
+}
+
+#titulo {
+  margin-top: 10%;
+  font-family: HelveticaNeueLTStd-Roman, sans-serif;
+  color: #124e84;
+}
+
+/* Color placeholder */
+
+#contact {
+  background-color: #124e84;
+}
+
+
+#logos
+ {
+  height: 100%
+  margin: auto;
+  }
+
+
+#price {
+  color: white;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+#vitrina {
+  margin-top: 7em;
+}
+
+#opciones {
+  margin-top: 3.5em;
+}
+
+ul.tilde {
+  list-style-image: url('../img/tilde.png');
+}
+
+ul li {
+  padding: 1em;
+  font-weight: bold;
+}
+
+ul p {
+  padding: 0 1em;
+}
+/* #pro_2 {
+  margin: 0 -15px;
+} */
+
+.form-group {
+  padding: 5px 15px;
+}
+
+.box {
+  background-color: #124e84;
+}
+
+.slides {
+  height: 100%;
+  width: auto;
+}
+
+#img-logo  img{
+  height: 100%;
+  width: auto;
+}
+
+#img-logo div {
+  padding: 0 2em;
+}
+
+.first-img-logo {
+  margin-top: -1em;
+}
+
+.wrapper-footer {
+  background-color: #f5f5f5;
+  margin-top: 3%;
+  padding-top: 5em;
+}
+
+.powered {
+  margin-bottom: -20%;
+}
