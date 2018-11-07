@@ -13,6 +13,12 @@
   src: url('HELVETICANEUELTSTD-BD.OTF');
 }
 
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: font-family: HELVETICANEUELTSTD-LT, sans-serif;
   background-color: #ffffff;
@@ -37,6 +43,16 @@ body {
   margin-top: 10%;
   font-family: HelveticaNeueLTStd-Roman, sans-serif;
   color: #124e84;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+  color: #ffffff;
+  background-color:  #124e84;
+  border-color:  #ffffff;
+  border-radius: 0px;
 }
 
 /* Color placeholder */
@@ -70,6 +86,15 @@ form .form-control:placeholder {
   padding: 1em;
 }
 
+.contact-beta {
+  position: relative;
+  top: 6em;
+}
+
+.logo-dn {
+  position: relative;
+  top: 2em;
+}
 
 #logos
  {
@@ -143,9 +168,11 @@ ul p {
 
 #boxes {
   background-color: #124e84;
+  border: solid 5px white;
   height: 20em;
   margin: auto;
   padding: 2em;
+  width: 100$;
 }
 
 .icon-box {
@@ -168,10 +195,10 @@ ul p {
 .powered {
   margin-bottom: -20em;
   text-align: center;
+  background-color: #f5f5f5;
 }
 
 .row-power {
-  background-color: #f5f5f5;
 }
 
 /* Carousel */
@@ -179,13 +206,18 @@ ul p {
 #slider .owl-nav div.owl-next {
     color: #fff;
     font-size: 18px;
-    margin-top: -20px;
-    position: absolute;
-    top: 50%;
+
+
     text-align: center;
     line-height: 39px;
     opacity: 0;
     border:1px solid #fff;
     width: 40px;
     height: 40px;
+}
+
+.owl-carousel {
+	position: relative;
+  top: 5em;
+	height: 100%;
 }

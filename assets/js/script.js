@@ -1,28 +1,16 @@
 $(document).ready(function() {
 
-    // var owl = $(".owl-carousel");
+    var owl = $(".owl-carousel");
 
-    // owl.owlCarousel({
-    //   items: 1,
-    //   autoplay: true,
-    //   nav: true,
-    //   smartSpeed: 900,
-    //   // navigationText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
-    // });
+    owl.owlCarousel({
+      items: 1,
+      autoplay: true,
+      nav: true,
+      smartSpeed: 900,
+      navigationText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+    });
 
-    $('.owl-carousel').owlCarousel({
-    stagePadding: 0,
-    items: 1,
-    loop:true,
-    margin:0,
-    singleItem:true,
-    nav:true,
-    navText: [
-        "<i class='fa fa-caret-left'></i>",
-        "<i class='fa fa-caret-right'></i>"
-    ],
-    dots:true
-});
+
 
 
 
