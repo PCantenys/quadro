@@ -6,9 +6,10 @@ $(document).ready(function() {
      items : 1,
      loop  : true,
      margin : 30,
+     dots: false,
      nav    : true,
      smartSpeed :900,
-     navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+     navText : ["<i class='glyphicon glyphicon-chevron-left'></i>","<i class='glyphicon glyphicon-chevron-right'></i>"]
    });
 
 });
