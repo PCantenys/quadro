@@ -37,9 +37,18 @@ body {
   height: 100%=;
 }
 
+#scroll_to {
+  -webkit-filter: invert(100%);
+  position: relative;
+  bottom: -1em;
+  margin: auto;
+  padding-bottom: 3em;
+}
+
 #logo-costan {
   position: relative;
   top: 2em;
+  /* margin: 0 auto 40px auto; */
   margin: 3em auto;
   margin-top: -3em;
 }
@@ -91,6 +100,8 @@ form .form-control:placeholder {
   padding: 1em;
 }
 
+
+
 .contact-beta {
   position: relative;
   top: 6em;
@@ -108,8 +119,9 @@ form .form-control:placeholder {
   }
 
 
-#price {
+.price {
   color: white;
+  font-size: 75%;
 }
 
 .text-datos {
@@ -125,7 +137,7 @@ form .form-control:placeholder {
   font-size: 3em;
 }
 
-#vitrina {
+.vitrina {
   margin-top: 7em;
 }
 
