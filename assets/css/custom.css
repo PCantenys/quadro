@@ -24,8 +24,11 @@ body {
   background-color: #ffffff;
 }
 
-.wrapper-main {
-
+.container-fluid {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #logo {
@@ -218,6 +221,11 @@ ul p {
 	position: relative;
   top: 5em;
 	height: 100%;
+}
+
+#slider {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 
