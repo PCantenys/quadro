@@ -223,11 +223,6 @@ ul p {
 	height: 100%;
 }
 
-#slider {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 
 /* Carousel */
 .owl-carousel .owl-nav button.owl-prev,

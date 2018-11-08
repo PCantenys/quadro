@@ -12,4 +12,10 @@ $(document).ready(function() {
      navText : ["<i class='glyphicon glyphicon-chevron-left'></i>","<i class='glyphicon glyphicon-chevron-right'></i>"]
    });
 
+   // Alternativa scroll to 
+  // $("#scroll_to").click(function() {
+  //   $('html, body').animate({
+  //       scrollTop: $("#vitrina").offset().top
+  //   }, 900);
+  // });
 });
