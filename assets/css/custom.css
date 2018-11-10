@@ -80,7 +80,7 @@ form {
 
 input {
   padding: 1em 1em;
-  margin: 0 auto;
+  margin: 0 1em;
 }
 
 form .form-control::-webkit-input-placeholder {
